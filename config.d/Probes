@@ -4,3 +4,32 @@
 
 binary = /usr/bin/fping
 
+
++ Curl
+
+binary = /usr/bin/curl
+offset = random
+
+
++ DNS
+
+binary = /usr/bin/dig
+offset = random
+
+
++ EchoPing
+
+binary = /usr/bin/echoping
+offset = random
+
+
++ EchoPingHttp
+
+binary = /usr/bin/echoping
+offset = random
+
+
++ SSH
+
+binary = /usr/bin/ssh-keyscan
+offset = random
