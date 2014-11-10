@@ -28,13 +28,13 @@ title = Search Latency
 ++ Google
 
 menu = Google
-title = www.google.com Latency
+title = www.google.com ICMP Latency
 host = www.google.com
 
 ++ Yahoo
 
 menu = Yahoo
-title = www.yahoo.com Latency
+title = www.yahoo.com ICMP Latency
 host = www.yahoo.com
 
 + Social
@@ -45,7 +45,7 @@ title = Social Latency
 ++ Twitter
 
 menu = Twitter
-title = twitter.com Latency
+title = twitter.com ICMP Latency
 host = twitter.com
 
 + Gaming
@@ -61,7 +61,7 @@ title = APAC Latency
 ++ YahooJP
 
 menu = Yahoo JP
-title = yahoo.co.jp Latency
+title = yahoo.co.jp ICMP Latency
 host = yahoo.co.jp
 
 + Europe
