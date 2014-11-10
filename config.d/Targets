@@ -71,11 +71,11 @@ host = wordpress.com
 menu = Gaming
 title = Gaming Latency
 
-++ Blizzard
+++ Kongregate
 
-menu = Blizzard
-title = us.battle.net ICMP Latency
-host = us.battle.net
+menu = Kongregate
+title = www.kongregate.com ICMP Latency
+host = www.kongregate.com
 
 ++ Steam
 
