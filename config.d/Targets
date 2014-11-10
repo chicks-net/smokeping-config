@@ -19,3 +19,32 @@ menu = Local Machine
 title = This host
 host = localhost
 #alerts = someloss
+
++ Megasites
+
+menu = Megasites
+title = Megasites Latency
+
+++ Google
+
+menu = Google
+title = www.google.com Latency
+host = www.google.com
+
+++ Twitter
+
+menu = Twitter
+title = twitter.com Latency
+host = twitter.com
+
+++ Yahoo
+
+menu = Yahoo
+title = www.yahoo.com Latency
+host = www.yahoo.com
+
+++ YahooJP
+
+menu = Yahoo JP
+title = yahoo.co.jp Latency
+host = yahoo.co.jp
