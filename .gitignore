@@ -23,3 +23,5 @@ nytprof.out
 
 # perltidy temporary files
 *.tdy
+
+smokeping_secrets
