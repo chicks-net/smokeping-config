@@ -25,6 +25,12 @@ host = localhost
 menu = Search
 title = Search Latency
 
+++ Bing
+
+menu = Bing
+title = www.bing.com ICMP Latency
+host = www.bing.com
+
 ++ Google
 
 menu = Google
@@ -42,21 +48,63 @@ host = www.yahoo.com
 menu = Social
 title = Social Latency
 
+++ Facebook
+
+menu = Facebook
+title = facebook.com ICMP Latency
+host = facebook.com
+
 ++ Twitter
 
 menu = Twitter
 title = twitter.com ICMP Latency
 host = twitter.com
 
+++ Wordpress
+
+menu = Wordpress
+title = wordpress.com ICMP Latency
+host = wordpress.com
+
 + Gaming
 
 menu = Gaming
 title = Gaming Latency
 
+++ Blizzard
+
+menu = Blizzard
+title = us.battle.net ICMP Latency
+host = us.battle.net
+
+++ Steam
+
+menu = Steam
+title = store.steampowered.com ICMP Latency
+host = store.steampowered.com
+
+++ SteamCommunity
+
+menu = SteamCommun
+title = steamcommunity.com ICMP Latency
+host = steamcommunity.com
+
 + APAC
 
 menu = APAC
 title = APAC Latency
+
+++ Baidu
+
+menu = Baidu
+title = baidu.com ICMP Latency
+host = baidu.com
+
+++ Weibo
+
+menu = Weibo
+title = weibo.com ICMP Latency
+host = weibo.com
 
 ++ YahooJP
 
@@ -68,3 +116,21 @@ host = yahoo.co.jp
 
 menu = Europe
 title = Europe Latency
+
+++ BBC
+
+menu = BBC
+title = bbc.co.uk ICMP Latency
+host = bbc.co.uk
+
+++ Mail.ru
+
+menu = Mail.ru
+title = mail.ru ICMP Latency
+host = mail.ru
+
+++ Wikipedia.DE
+
+menu = Wikipedia.DE
+title = de.wikipedia.org ICMP Latency
+host = de.wikipedia.org
