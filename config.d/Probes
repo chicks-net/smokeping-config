@@ -9,6 +9,8 @@ binary = /usr/bin/fping
 
 binary = /usr/bin/curl
 offset = random
+pings = 5
+urlformat = http://%host%/
 
 
 + DNS

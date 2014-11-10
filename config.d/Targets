@@ -37,10 +37,18 @@ menu = Google
 title = www.google.com ICMP Latency
 host = www.google.com
 
+++ GoogleHTTP
+
+menu = GoogleHTTP
+title = www.google.com HTTP Latency
+probe = Curl
+host = www.google.com
+
 ++ Yahoo
 
 menu = Yahoo
 title = www.yahoo.com ICMP Latency
+probe = FPing
 host = www.yahoo.com
 
 + Social
@@ -53,6 +61,13 @@ title = Social Latency
 menu = Facebook
 title = facebook.com ICMP Latency
 host = facebook.com
+
+++ FacebookHTTP
+
+menu = FacebookHTTP
+title = www.facebook.com HTTP Latency
+probe = Curl
+host = www.facebook.com
 
 ++ Twitter
 
