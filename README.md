@@ -18,6 +18,8 @@ In Debian/Ubuntu-land this should do it:
 1. `mkdir -p /home/chicks/Documents/git`
 1. `cd /home/chicks/Documents/git`
 1. `git clone git@github.com:chicks-net/smokeping-config.git`
+1. `cd smokeping-config`
+1. `touch smokeping_secrets ; chmod 600 smokeping_secrets`
 1. `cd /etc/`
 1. `mv smokeping smokeping.as_installed`
 1. `ln -s ~chicks/Documents/git/smokeping-config smokeping`
