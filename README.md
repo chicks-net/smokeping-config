@@ -24,6 +24,11 @@ In Debian/Ubuntu-land this should do it:
 1. `mv smokeping smokeping.as_installed`
 1. `ln -s ~chicks/Documents/git/smokeping-config smokeping`
 1. `service smokeping start`
+1. `cd /etc/apache2/conf-available`
+1. `ln -s ../../smokeping/apache2.conf smokeping.conf`
+1. `a2enconf smokeping`
+1. `a2enmod cgid`
+1. `service apache2 restart`
 
 After 5-10 minutes you should have graphs in http://localhost/smokeping/smokeping.cgi and making
 this available more widely is left as an exercise for the reader.  (Document pull requests are still
