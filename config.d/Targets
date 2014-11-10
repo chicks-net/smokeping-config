@@ -123,13 +123,13 @@ menu = BBC
 title = bbc.co.uk ICMP Latency
 host = bbc.co.uk
 
-++ Mail.ru
+++ Mail_ru
 
 menu = Mail.ru
 title = mail.ru ICMP Latency
 host = mail.ru
 
-++ Wikipedia.DE
+++ Wikipedia_DE
 
 menu = Wikipedia.DE
 title = de.wikipedia.org ICMP Latency
