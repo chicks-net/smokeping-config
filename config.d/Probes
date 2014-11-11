@@ -17,6 +17,7 @@ urlformat = http://%host%/
 
 binary = /usr/bin/dig
 offset = random
+pings = 5
 
 
 + EchoPing

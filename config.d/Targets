@@ -149,3 +149,51 @@ host = mail.ru
 menu = Wikipedia.DE
 title = de.wikipedia.org ICMP Latency
 host = de.wikipedia.org
+
++ DNS
+probe = DNS
+menu = DNS
+title = DNS Latency
+
+++ GooAchicks
+
+menu = GooAchicks
+host = google 8.8.4.4 www.chicks.net
+lookup = www.chicks.net
+server = 8.8.4.4
+
+++ GooBchicks
+
+menu = GooBchicks
+host = google 8.8.8.8 www.chicks.net
+lookup = www.chicks.net
+server = 8.8.8.8
+
+++ GooAgoogle
+
+menu = GooAgoogle
+host = google 8.8.4.4 www.google.com
+lookup = www.google.com
+server = 8.8.4.4
+
+++ GooBgoogle
+
+menu = GooBgoogle
+host = google 8.8.8.8 www.google.com
+lookup = www.google.com
+server = 8.8.8.8
+
+++ OpenAgoogle
+
+menu = OpenAgoogle
+host = OpenDNS 208.67.222.222 www.google.com
+lookup = www.google.com
+server = 208.67.222.222
+
+++ OpenBgoogle
+
+menu = OpenBgoogle
+host = OpenDNS 208.67.220.220 www.google.com
+lookup = www.google.com
+server = 208.67.220.220
+
