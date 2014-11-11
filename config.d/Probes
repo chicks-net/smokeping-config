@@ -20,19 +20,19 @@ offset = random
 pings = 5
 
 
-+ EchoPing
-
-binary = /usr/bin/echoping
-offset = random
-
-
-+ EchoPingHttp
-
-binary = /usr/bin/echoping
-offset = random
+# + EchoPing
+#
+# binary = /usr/bin/echoping
+# offset = random
 
 
-+ SSH
+# + EchoPingHttp
+#
+# binary = /usr/bin/echoping
+# offset = random
 
-binary = /usr/bin/ssh-keyscan
-offset = random
+
+# + SSH
+#
+# binary = /usr/bin/ssh-keyscan
+# offset = random
