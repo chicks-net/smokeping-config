@@ -20,11 +20,17 @@ title = This host ICMP Latency
 host = localhost
 #alerts = someloss
 
-++ DefaultRouter
+++ DefaultRouter0
 
-menu = Default Router
-title = 192.168.0. ICMP Latency1
+menu = Router 192.168.0.1
+title = 192.168.0.1 ICMP Latency
 host = 192.168.0.1
+
+++ DefaultRouter1
+
+menu = Router 192.168.1.1
+title = 192.168.1.1 ICMP Latency
+host = 192.168.1.1
 
 + Search
 
