@@ -185,6 +185,20 @@ host = google 8.8.8.8 www.google.com
 lookup = www.google.com
 server = 8.8.8.8
 
+++ OpenAchicks
+
+menu = OpenAchicks
+host = OpenDNS 208.67.222.222 www.chicks.net
+lookup = www.chicks.netk
+server = 208.67.222.222
+
+++ OpenBchicks
+
+menu = OpenBchicks
+host = OpenDNS 208.67.220.220 www.chicks.net
+lookup = www.chicks.net
+server = 208.67.220.220
+
 ++ OpenAgoogle
 
 menu = OpenAgoogle
