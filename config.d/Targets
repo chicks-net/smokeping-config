@@ -36,136 +36,120 @@ host = 192.168.1.1
 
 menu = Search
 title = Search Latency
-probe = TCPPing
+probe = Curl
 
 ++ Bing
 
 menu = Bing
-title = www.bing.com TCP Latency
+title = www.bing.com HTTP Latency
 host = www.bing.com
-
-++ Google
-
-menu = Google
-title = www.google.com TCP Latency
-host = www.google.com
 
 ++ GoogleHTTP
 
 menu = GoogleHTTP
 title = www.google.com HTTP Latency
-probe = Curl
 host = www.google.com
 
 ++ Yahoo
 
 menu = Yahoo
-title = www.yahoo.com TCP Latency
-probe = TCPPing
+title = www.yahoo.com HTTP Latency
 host = www.yahoo.com
 
 + Social
 
 menu = Social
 title = Social Latency
-probe = TCPPing
-
-++ Facebook
-
-menu = Facebook
-title = facebook.com TCP Latency
-host = facebook.com
+probe = Curl
 
 ++ FacebookHTTP
 
 menu = FacebookHTTP
 title = www.facebook.com HTTP Latency
-probe = Curl
 host = www.facebook.com
 
 ++ Twitter
 
 menu = Twitter
-title = twitter.com TCP Latency
-probe = TCPPing
+title = twitter.com HTTP Latency
 host = twitter.com
 
 ++ Wordpress
 
 menu = Wordpress
-title = wordpress.com TCP Latency
+title = wordpress.com HTTP Latency
 host = wordpress.com
 
 + Gaming
 
 menu = Gaming
 title = Gaming Latency
-probe = TCPPing
+probe = Curl
 
 ++ Kongregate
 
 menu = Kongregate
-title = www.kongregate.com TCP Latency
+title = www.kongregate.com HTTP Latency
 host = www.kongregate.com
 
 ++ Steam
 
 menu = Steam
-title = store.steampowered.com TCP Latency
+title = store.steampowered.com HTTP Latency
 host = store.steampowered.com
 
 ++ SteamCommunity
 
 menu = SteamCommun
-title = steamcommunity.com TCP Latency
+title = steamcommunity.com HTTP Latency
 host = steamcommunity.com
 
 + APAC
 
 menu = APAC
 title = APAC Latency
-probe = TCPPing
+probe = Curl
 
 ++ Baidu
 
 menu = Baidu
-title = baidu.com TCP Latency
+title = baidu.com HTTP Latency
 host = baidu.com
 
 ++ Weibo
 
 menu = Weibo
-title = weibo.com TCP Latency
+title = weibo.com HTTP Latency
 host = weibo.com
 
 ++ YahooJP
 
 menu = Yahoo JP
-title = yahoo.co.jp TCP Latency
+title = yahoo.co.jp HTTP Latency
 host = yahoo.co.jp
 
 + Europe
 
 menu = Europe
 title = Europe Latency
-probe = TCPPing
+probe = Curl
 
 ++ BBC
 
 menu = BBC
-title = bbc.co.uk TCP Latency
+title = bbc.co.uk HTTP Latency
 host = bbc.co.uk
 
 ++ Mail_ru
 
 menu = Mail.ru
-title = mail.ru TCP Latency
+title = mail.ru HTTP Latency
 host = mail.ru
 
 ++ Wikipedia_DE
 
 menu = Wikipedia.DE
-title = de.wikipedia.org TCP Latency
+title = de.wikipedia.org HTTP Latency
 host = de.wikipedia.org
 
 + DNS
