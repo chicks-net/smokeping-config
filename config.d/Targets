@@ -197,3 +197,26 @@ host = OpenDNS 208.67.220.220 www.google.com
 lookup = www.google.com
 server = 208.67.220.220
 
++ FINI
+probe = FPing
+menu = FINI
+title = FINI Latency
+
+++ boo
+
+menu = boo.fini.net
+title = boo.fini.net ICMP Latency
+host = boo.fini.net
+
+++ ralph
+
+menu = ralph.fini.net
+title = ralph.fini.net ICMP Latency
+host = ralph.fini.net
+
+++ slappy
+
+menu = slappy.fini.net
+title = slappy.fini.net ICMP Latency
+host = slappy.fini.net
+
