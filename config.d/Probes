@@ -20,6 +20,16 @@ offset = random
 pings = 5
 
 
++ TCPPing
+
+binary = /etc/smokeping/bin/tcpping # mandatory
+forks = 5
+offset = 50%
+step = 300
+#tcptraceroute = -e "sudo /bin/tcptraceroute"
+timeout = 15
+
+
 # + EchoPing
 #
 # binary = /usr/bin/echoping

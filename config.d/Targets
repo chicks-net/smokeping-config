@@ -16,25 +16,32 @@ title = Local Network
 ++ LocalMachine
 
 menu = Local Machine
-title = This host
+title = This host ICMP Latency
 host = localhost
 #alerts = someloss
+
+++ DefaultRouter
+
+menu = Default Router
+title = 192.168.0. ICMP Latency1
+host = 192.168.0.1
 
 + Search
 
 menu = Search
 title = Search Latency
+probe = TCPPing
 
 ++ Bing
 
 menu = Bing
-title = www.bing.com ICMP Latency
+title = www.bing.com TCP Latency
 host = www.bing.com
 
 ++ Google
 
 menu = Google
-title = www.google.com ICMP Latency
+title = www.google.com TCP Latency
 host = www.google.com
 
 ++ GoogleHTTP
@@ -47,19 +54,20 @@ host = www.google.com
 ++ Yahoo
 
 menu = Yahoo
-title = www.yahoo.com ICMP Latency
-probe = FPing
+title = www.yahoo.com TCP Latency
+probe = TCPPing
 host = www.yahoo.com
 
 + Social
 
 menu = Social
 title = Social Latency
+probe = TCPPing
 
 ++ Facebook
 
 menu = Facebook
-title = facebook.com ICMP Latency
+title = facebook.com TCP Latency
 host = facebook.com
 
 ++ FacebookHTTP
@@ -72,82 +80,86 @@ host = www.facebook.com
 ++ Twitter
 
 menu = Twitter
-title = twitter.com ICMP Latency
+title = twitter.com TCP Latency
+probe = TCPPing
 host = twitter.com
 
 ++ Wordpress
 
 menu = Wordpress
-title = wordpress.com ICMP Latency
+title = wordpress.com TCP Latency
 host = wordpress.com
 
 + Gaming
 
 menu = Gaming
 title = Gaming Latency
+probe = TCPPing
 
 ++ Kongregate
 
 menu = Kongregate
-title = www.kongregate.com ICMP Latency
+title = www.kongregate.com TCP Latency
 host = www.kongregate.com
 
 ++ Steam
 
 menu = Steam
-title = store.steampowered.com ICMP Latency
+title = store.steampowered.com TCP Latency
 host = store.steampowered.com
 
 ++ SteamCommunity
 
 menu = SteamCommun
-title = steamcommunity.com ICMP Latency
+title = steamcommunity.com TCP Latency
 host = steamcommunity.com
 
 + APAC
 
 menu = APAC
 title = APAC Latency
+probe = TCPPing
 
 ++ Baidu
 
 menu = Baidu
-title = baidu.com ICMP Latency
+title = baidu.com TCP Latency
 host = baidu.com
 
 ++ Weibo
 
 menu = Weibo
-title = weibo.com ICMP Latency
+title = weibo.com TCP Latency
 host = weibo.com
 
 ++ YahooJP
 
 menu = Yahoo JP
-title = yahoo.co.jp ICMP Latency
+title = yahoo.co.jp TCP Latency
 host = yahoo.co.jp
 
 + Europe
 
 menu = Europe
 title = Europe Latency
+probe = TCPPing
 
 ++ BBC
 
 menu = BBC
-title = bbc.co.uk ICMP Latency
+title = bbc.co.uk TCP Latency
 host = bbc.co.uk
 
 ++ Mail_ru
 
 menu = Mail.ru
-title = mail.ru ICMP Latency
+title = mail.ru TCP Latency
 host = mail.ru
 
 ++ Wikipedia_DE
 
 menu = Wikipedia.DE
-title = de.wikipedia.org ICMP Latency
+title = de.wikipedia.org TCP Latency
 host = de.wikipedia.org
 
 + DNS
@@ -198,25 +210,25 @@ lookup = www.google.com
 server = 208.67.220.220
 
 + FINI
-probe = FPing
+probe = TCPPing
 menu = FINI
 title = FINI Latency
 
 ++ boo
 
 menu = boo.fini.net
-title = boo.fini.net ICMP Latency
+title = boo.fini.net TCP Latency
 host = boo.fini.net
 
 ++ ralph
 
 menu = ralph.fini.net
-title = ralph.fini.net ICMP Latency
+title = ralph.fini.net TCP Latency
 host = ralph.fini.net
 
 ++ slappy
 
 menu = slappy.fini.net
-title = slappy.fini.net ICMP Latency
+title = slappy.fini.net TCP Latency
 host = slappy.fini.net
 
