@@ -236,3 +236,37 @@ menu = slappy.fini.net
 title = slappy.fini.net TCP Latency
 host = slappy.fini.net
 
++ RTB
+
+menu = RTB
+title = RTB end points
+
+++ GOO
+
+menu = RTB google
+title = Google RTB end points
+
++++ rtb-us-east
+
+menu = rtb-us-east
+title = rtb-us-east.g.doubleclick.net ICMP Latency Ashburn_VA
+host = rtb-us-east.g.doubleclick.net
+
++++ rtb-us-west
+
+menu = rtb-us-west
+title = rtb-us-west.g.doubleclick.net ICMP Latency San_Fran
+host = rtb-us-west.g.doubleclick.net
+
++++ rtb-europe
+
+menu = rtb-europe
+title = rtb-europe.g.doubleclick.net ICMP Latency Amsterdam
+host = rtb-europe.g.doubleclick.net
+
++++ rtb-asia
+
+menu = rtb-asia
+title = rtb-asia.g.doubleclick.net ICMP Latency Hong_Kong
+host = rtb-asia.g.doubleclick.net
+
