@@ -9,6 +9,7 @@ Installation process
 
 These instructions assume that you are putting this repo into `/home/chicks/Documents/git/smokeping-config`
 which is probably not what you want.
+These commands have been translated into an [ansible role](https://github.com/chicks-net/fini-ansible/tree/master/roles/app_smokeping).
 
 In Debian/Ubuntu-land this should do it:
 
