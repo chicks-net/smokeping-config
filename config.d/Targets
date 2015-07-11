@@ -241,6 +241,41 @@ host = slappy.fini.net
 menu = RTB
 title = RTB end points
 
+++ OPX
+
+menu = RTB openX
+title = OpenX RTB end points
+
++++ rtb-openx-xv
+
+menu = rtb-openx-xv
+title = oxcs-d-xv.openx.com ICMP Latency Ashburn_VA
+host = oxcs-d-xv.openx.com
+
++++ rtb-openx-xa
+
+menu = rtb-openx-xa
+title = oxcs-d-xa.openx.com ICMP Latency Amsterdam
+host = oxcs-d-xa.openx.com
+
++++ rtb-openx-xf
+
+menu = rtb-openx-xf
+title = oxcs-d-xf.openx.com ICMP Latency Tokyo
+host = oxcs-d-xf.openx.com
+
++++ rtb-openx-ca
+
+menu = rtb-openx-ca
+title = oxcs-d-ca.openx.com ICMP Latency Tokyo
+host = oxcs-d-ca.openx.com
+
++++ rtb-openx-lc
+
+menu = rtb-openx-lc
+title = oxcs-d-lc.openx.com ICMP Latency Tokyo
+host = oxcs-d-lc.openx.com
+
 ++ GOO
 
 menu = RTB google
