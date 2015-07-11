@@ -267,13 +267,13 @@ host = oxcs-d-xf.openx.com
 +++ rtb-openx-ca
 
 menu = rtb-openx-ca
-title = oxcs-d-ca.openx.com ICMP Latency Tokyo
+title = oxcs-d-ca.openx.com ICMP Latency Los_Angeles
 host = oxcs-d-ca.openx.com
 
 +++ rtb-openx-lc
 
 menu = rtb-openx-lc
-title = oxcs-d-lc.openx.com ICMP Latency Tokyo
+title = oxcs-d-lc.openx.com ICMP Latency Chicago
 host = oxcs-d-lc.openx.com
 
 ++ GOO
