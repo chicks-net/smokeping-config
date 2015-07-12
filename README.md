@@ -43,6 +43,9 @@ Categories
 * Gaming
 * APAC
 * Europe
+* DNS
+* FINI
+* RTB - real time bidding
 
 Thanks
 ------
