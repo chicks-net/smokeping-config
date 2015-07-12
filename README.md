@@ -2,7 +2,7 @@ smokeping-config
 ================
 
 smokeping config is our derivation of the debian/ubuntu stock smokeping configuration
-into something we find easiser to use as a base for our installs.
+into something we find easier to use as a base for our installs.
 
 Installation process
 --------------------
