@@ -1,11 +1,12 @@
-smokeping-config
-================
+# smokeping-config
+
+![GitHub License](https://img.shields.io/github/license/chicks-net/google-plus-posts-dumper)
+![GitHub repo size](https://img.shields.io/github/repo-size/chicks-net/google-plus-posts-dumper)
 
 smokeping config is our derivation of the debian/ubuntu stock smokeping configuration
 into something we find easier to use as a base for our installs.
 
-Installation process
---------------------
+## Installation process
 
 These instructions assume that you are putting this repo into `/home/chicks/Documents/git/smokeping-config`
 which is probably not what you want.
@@ -35,8 +36,7 @@ After 5-10 minutes you should have graphs in http://localhost/smokeping/smokepin
 this available more widely is left as an exercise for the reader.  (Document pull requests are still
 welcomed.)
 
-Categories
-----------
+# Categories
 
 * Search
 * Social
@@ -47,8 +47,7 @@ Categories
 * FINI
 * RTB - real time bidding
 
-Thanks
-------
+# Thanks
 
 * [wikipedia](http://en.wikipedia.org/wiki/List_of_most_popular_websites) provided a nice list of popular
 sites with Alexa and Google together rankings.
